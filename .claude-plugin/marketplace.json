@@ -1,0 +1,13 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "justinf608-cache-tax",
+  "description": "cache-tax pinned to a reviewed commit of karanb192/cache-tax",
+  "owner": { "name": "justinf608" },
+  "plugins": [
+    {
+      "name": "cache-tax",
+      "source": "./",
+      "description": "Keeps the 1-hour prompt cache warm for a window you set and asks before a cold send. Reviewed at upstream commit b05ec14."
+    }
+  ]
+}
